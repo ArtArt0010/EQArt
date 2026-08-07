@@ -1,0 +1,61 @@
+{
+    "classes": [
+        {
+            "className": "AudioProcessor",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "AudioProcessor",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "volum",
+                            "type": "float"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 22,
+                    "name": "volumeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "samples",
+                            "type": "QList<float>"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 23,
+                    "name": "samplesReady",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 18,
+                    "name": "process",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "audioprocessor.h",
+    "outputRevision": 69
+}

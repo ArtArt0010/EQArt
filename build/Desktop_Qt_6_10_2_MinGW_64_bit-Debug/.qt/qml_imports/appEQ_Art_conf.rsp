@@ -1,0 +1,14 @@
+-rootPath
+D:/QT/Projects/EQ_Art
+-cmake-output
+-output-file
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qt/qml_imports/appEQ_Art_conf.cmake
+-importPath
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug
+-importPath
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/EQ_Art
+-importPath
+D:/QT/6.10.2/mingw_64/qml
+-qrcFiles
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qt/rcc/qmake_EQ_Art.qrc
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qt/rcc/appEQ_Art_raw_qml_0.qrc

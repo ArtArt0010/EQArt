@@ -1,0 +1,6 @@
+module EQ_Art
+typeinfo appEQ_Art.qmltypes
+prefer :/qt/qml/EQ_Art/
+Main 254.0 Main.qml
+depends QtQuick
+

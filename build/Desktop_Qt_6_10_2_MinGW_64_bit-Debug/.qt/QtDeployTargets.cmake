@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_appEQ_Art_FILE D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/appEQ_Art.exe)
+set(__QT_DEPLOY_TARGET_appEQ_Art_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_appEQ_Art_RUNTIME_DLLS D:/QT/6.10.2/mingw_64/bin/Qt6Quick.dll;D:/QT/6.10.2/mingw_64/bin/Qt6Multimedia.dll;D:/QT/6.10.2/mingw_64/bin/Qt6OpenGL.dll;D:/QT/6.10.2/mingw_64/bin/Qt6QmlMeta.dll;D:/QT/6.10.2/mingw_64/bin/Qt6QmlModels.dll;D:/QT/6.10.2/mingw_64/bin/Qt6QmlWorkerScript.dll;D:/QT/6.10.2/mingw_64/bin/Qt6Qml.dll;D:/QT/6.10.2/mingw_64/bin/Qt6Network.dll;D:/QT/6.10.2/mingw_64/bin/Qt6Gui.dll;D:/QT/6.10.2/mingw_64/bin/Qt6Concurrent.dll;D:/QT/6.10.2/mingw_64/bin/Qt6Core.dll)

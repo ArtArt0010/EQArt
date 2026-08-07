@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/EQ_Art/">
+    <file alias="Main.qml">D:/QT/Projects/EQ_Art/Main.qml</file>
+  </qresource>
+</RCC>
+

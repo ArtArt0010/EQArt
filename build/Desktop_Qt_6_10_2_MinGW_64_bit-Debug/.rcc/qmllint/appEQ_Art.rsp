@@ -1,0 +1,14 @@
+--bare
+-I
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug
+-I
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/EQ_Art
+-I
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug
+-I
+D:/QT/6.10.2/mingw_64/qml
+--resource
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qt/rcc/qmake_EQ_Art.qrc
+--resource
+D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qt/rcc/appEQ_Art_raw_qml_0.qrc
+D:/QT/Projects/EQ_Art/Main.qml

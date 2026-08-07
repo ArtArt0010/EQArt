@@ -1,0 +1,60 @@
+{
+    "classes": [
+        {
+            "className": "WaveformView",
+            "lineNumber": 8,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 12,
+                    "name": "smoothing",
+                    "notify": "smoothingChanged",
+                    "read": "smoothing",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSmoothing"
+                }
+            ],
+            "qualifiedClassName": "WaveformView",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "smoothingChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "samples",
+                            "type": "QList<float>"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 28,
+                    "name": "setSamples",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "waveformview.h",
+    "outputRevision": 69
+}
