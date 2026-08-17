@@ -10,7 +10,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "target",
-                            "line": 14,
+                            "line": 15,
                             "message": "Cannot access value for name audioProcessor"
                         },
                         {
@@ -18,15 +18,47 @@
                             "column": 12,
                             "durationMicroseconds": 0,
                             "functionName": "onVolumeChanged",
-                            "line": 16,
+                            "line": 17,
                             "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "onSpectrumChanged",
+                            "line": 20,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 30,
+                            "message": "Could not find property \"visible\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 26,
+                            "line": 31,
+                            "message": "Could not find property \"fill\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 37,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 38,
                             "message": "Could not find property \"fill\"."
                         },
                         {
@@ -34,7 +66,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 32,
+                            "line": 43,
                             "message": ""
                         },
                         {
@@ -42,7 +74,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "top",
-                            "line": 33,
+                            "line": 44,
                             "message": ""
                         },
                         {
@@ -50,15 +82,39 @@
                             "column": 13,
                             "durationMicroseconds": 0,
                             "functionName": "onValueChanged",
-                            "line": 55,
+                            "line": 66,
                             "message": "Could not find signal \"valueChanged\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 87,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 80,
+                            "message": "Cannot access value for name modeButton"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 78,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 63,
+                            "line": 93,
                             "message": ""
                         },
                         {
@@ -66,7 +122,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 64,
+                            "line": 94,
                             "message": ""
                         },
                         {
@@ -74,7 +130,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 73,
+                            "line": 103,
                             "message": ""
                         },
                         {
@@ -82,7 +138,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 74,
+                            "line": 104,
                             "message": "Cannot access value for name volume"
                         },
                         {
@@ -90,7 +146,7 @@
                             "column": 33,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 76,
+                            "line": 106,
                             "message": ""
                         }
                     ],

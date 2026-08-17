@@ -7,6 +7,7 @@ Window {
     height: 750
     visible: true
     color: "#1a1a2e"
+    property bool flag: false
 
     property real volume: 0
 
@@ -16,16 +17,26 @@ Window {
            function onVolumeChanged(value) {
                volume = value
            }
+           function onSpectrumChanged(spectrum) {
+                   spectrumView.setSpectrum(spectrum)
+               }
        }
 
 
     WaveformView {
 
         objectName: "waveform"
-         id: waveform
+        id: waveform
+        visible: !flag
         anchors.fill: parent
 
     }
+
+    SpectrumView {
+            id: spectrumView
+            visible: flag
+            anchors.fill: parent
+        }
 
     Column {
 
@@ -55,6 +66,25 @@ Window {
             {
                 waveform.smoothing = Math.round(value)
             }
+        }
+
+        Button{
+            id: modeButton
+            width: 80
+            height: 30
+              hoverEnabled: false
+
+            background: Rectangle{      // фон кнопки
+                        anchors.fill: parent
+                       // color: "#330645"// цвет фона кнопки
+                        color: modeButton.down ? "#330645" : "#410559"
+                        border.color: "#01a3a4"         // цвет границы
+                        radius: 5
+            }
+
+            text: "Режим"
+
+            onClicked: flag = !flag
         }
 
     }

@@ -5,19 +5,16 @@
 #include "AudioInput.h"
 #include "audioprocessor.h"
 #include "waveformview.h"
-
+#include "spectrumview.h"
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
 
-    qmlRegisterType<WaveformView>(
-        "EQ",
-        1,
-        0,
-        "WaveformView"
-        );
+    qmlRegisterType<WaveformView>("EQ", 1, 0, "WaveformView");
+
+    qmlRegisterType<SpectrumView>("EQ", 1, 0, "SpectrumView");
 
 
     QQmlApplicationEngine engine;

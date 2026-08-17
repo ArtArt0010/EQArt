@@ -45,7 +45,7 @@
         "classes": [
             {
                 "className": "AudioProcessor",
-                "lineNumber": 8,
+                "lineNumber": 9,
                 "object": true,
                 "qualifiedClassName": "AudioProcessor",
                 "signals": [
@@ -58,7 +58,7 @@
                             }
                         ],
                         "index": 0,
-                        "lineNumber": 22,
+                        "lineNumber": 23,
                         "name": "volumeChanged",
                         "returnType": "void"
                     },
@@ -71,8 +71,21 @@
                             }
                         ],
                         "index": 1,
-                        "lineNumber": 23,
+                        "lineNumber": 24,
                         "name": "samplesReady",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "spectrum",
+                                "type": "QList<float>"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 25,
+                        "name": "spectrumChanged",
                         "returnType": "void"
                     }
                 ],
@@ -85,8 +98,8 @@
                                 "type": "QByteArray"
                             }
                         ],
-                        "index": 2,
-                        "lineNumber": 18,
+                        "index": 3,
+                        "lineNumber": 19,
                         "name": "process",
                         "returnType": "void"
                     }
@@ -100,6 +113,39 @@
             }
         ],
         "inputFile": "audioprocessor.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SpectrumView",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "SpectrumView",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "spectrum",
+                                "type": "QList<float>"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 17,
+                        "name": "setSpectrum",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "spectrumview.h",
         "outputRevision": 69
     },
     {

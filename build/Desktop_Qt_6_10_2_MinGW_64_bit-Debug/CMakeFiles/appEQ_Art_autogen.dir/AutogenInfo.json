@@ -957,10 +957,17 @@
 			"EWIEGA46WW/moc_audioprocessor.cpp",
 			null
 		],
+		[ "D:/QT/Projects/EQ_Art/fft.h", "MU", "EWIEGA46WW/moc_fft.cpp", null ],
 		[
 			"D:/QT/Projects/EQ_Art/ringbuffer.h",
 			"MU",
 			"EWIEGA46WW/moc_ringbuffer.cpp",
+			null
+		],
+		[
+			"D:/QT/Projects/EQ_Art/spectrumview.h",
+			"MU",
+			"EWIEGA46WW/moc_spectrumview.cpp",
 			null
 		],
 		[
@@ -1060,8 +1067,10 @@
 	[
 		[ "D:/QT/Projects/EQ_Art/audioinput.cpp", "MU", null ],
 		[ "D:/QT/Projects/EQ_Art/audioprocessor.cpp", "MU", null ],
+		[ "D:/QT/Projects/EQ_Art/fft.cpp", "MU", null ],
 		[ "D:/QT/Projects/EQ_Art/main.cpp", "MU", null ],
 		[ "D:/QT/Projects/EQ_Art/ringbuffer.cpp", "MU", null ],
+		[ "D:/QT/Projects/EQ_Art/spectrumview.cpp", "MU", null ],
 		[ "D:/QT/Projects/EQ_Art/waveformview.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

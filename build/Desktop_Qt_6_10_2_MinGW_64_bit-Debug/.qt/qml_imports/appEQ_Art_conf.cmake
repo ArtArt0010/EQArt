@@ -1,4 +1,4 @@
-set(qml_import_scanner_imports_count 30)
+set(qml_import_scanner_imports_count 31)
 set(qml_import_scanner_import_0 "CLASSNAME;QtQuick2Plugin;LINKTARGET;Qt6::qtquick2plugin;NAME;QtQuick;PATH;D:/QT/6.10.2/mingw_64/qml/QtQuick;PLUGIN;qtquick2plugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/;RELATIVEPATH;QtQuick;TYPE;module;")
 set(qml_import_scanner_import_1 "CLASSNAME;QtQmlPlugin;LINKTARGET;Qt6::qmlplugin;NAME;QtQml;PATH;D:/QT/6.10.2/mingw_64/qml/QtQml;PLUGIN;qmlplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/;RELATIVEPATH;QtQml;TYPE;module;")
 set(qml_import_scanner_import_2 "NAME;QML;PATH;D:/QT/6.10.2/mingw_64/qml/QML;PREFER;:/qt-project.org/imports/QML/;RELATIVEPATH;QML;TYPE;module;")
@@ -29,4 +29,5 @@ set(qml_import_scanner_import_26 "CLASSNAME;QtQuickControls2NativeStylePlugin;CO
 set(qml_import_scanner_import_27 "CLASSNAME;QtQuickControls2WindowsStyleImplPlugin;COMPONENTS;D:/QT/6.10.2/mingw_64/qml/QtQuick/Controls/Windows/impl/CheckIndicator.qml;D:/QT/6.10.2/mingw_64/qml/QtQuick/Controls/Windows/impl/SwitchIndicator.qml;LINKTARGET;Qt6::qtquickcontrols2windowsstyleimplplugin;NAME;QtQuick.Controls.Windows.impl;PATH;D:/QT/6.10.2/mingw_64/qml/QtQuick/Controls/Windows/impl;PLUGIN;qtquickcontrols2windowsstyleimplplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/Controls/Windows/impl/;RELATIVEPATH;QtQuick/Controls/Windows/impl;TYPE;module;")
 set(qml_import_scanner_import_28 "CLASSNAME;QtQuickControls2BasicStyleImplPlugin;LINKTARGET;Qt6::qtquickcontrols2basicstyleimplplugin;NAME;QtQuick.Controls.Basic.impl;PATH;D:/QT/6.10.2/mingw_64/qml/QtQuick/Controls/Basic/impl;PLUGIN;qtquickcontrols2basicstyleimplplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/Controls/Basic/impl/;RELATIVEPATH;QtQuick/Controls/Basic/impl;TYPE;module;")
 set(qml_import_scanner_import_29 "CLASSNAME;QtQmlLabsModelsPlugin;LINKTARGET;Qt6::labsmodelsplugin;NAME;Qt.labs.qmlmodels;PATH;D:/QT/6.10.2/mingw_64/qml/Qt/labs/qmlmodels;PLUGIN;labsmodelsplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/Qt/labs/qmlmodels/;RELATIVEPATH;Qt/labs/qmlmodels;TYPE;module;")
+set(qml_import_scanner_import_30 "NAME;EQ;TYPE;module;")
 

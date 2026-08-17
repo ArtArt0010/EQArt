@@ -1,0 +1,33 @@
+{
+    "classes": [
+        {
+            "className": "SpectrumView",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "SpectrumView",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "spectrum",
+                            "type": "QList<float>"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 17,
+                    "name": "setSpectrum",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "spectrumview.h",
+    "outputRevision": 69
+}
