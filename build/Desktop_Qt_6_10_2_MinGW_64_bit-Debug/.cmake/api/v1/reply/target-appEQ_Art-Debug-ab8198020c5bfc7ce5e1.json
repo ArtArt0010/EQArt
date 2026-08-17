@@ -104,13 +104,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 45,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 38,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
@@ -410,7 +410,7 @@
 			{
 				"command" : 14,
 				"file" : 5,
-				"line" : 976,
+				"line" : 970,
 				"parent" : 14
 			},
 			{
@@ -422,7 +422,7 @@
 			{
 				"command" : 14,
 				"file" : 5,
-				"line" : 970,
+				"line" : 976,
 				"parent" : 14
 			},
 			{
@@ -773,8 +773,9 @@
 				12,
 				14,
 				16,
-				17,
-				18
+				18,
+				19,
+				20
 			]
 		},
 		{
@@ -927,11 +928,11 @@
 	[
 		{
 			"backtrace" : 62,
-			"id" : "appEQ_Art_copy_res::@6890427a1f51a3e7e1df"
+			"id" : "appEQ_Art_copy_qml::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 64,
-			"id" : "appEQ_Art_copy_qml::@6890427a1f51a3e7e1df"
+			"id" : "appEQ_Art_copy_res::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 67,
@@ -1090,19 +1091,19 @@
 				2,
 				3,
 				4,
-				16,
-				17,
 				18,
 				19,
+				20,
 				21,
-				22,
-				31,
-				32,
+				23,
+				24,
 				33,
 				34,
 				35,
 				36,
-				37
+				37,
+				38,
+				39
 			]
 		},
 		{
@@ -1115,7 +1116,8 @@
 				10,
 				12,
 				14,
-				15
+				16,
+				17
 			]
 		},
 		{
@@ -1126,28 +1128,29 @@
 				7,
 				9,
 				11,
-				13
+				13,
+				15
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				20
+				22
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				23,
-				24,
 				25,
 				26,
 				27,
 				28,
 				29,
-				30
+				30,
+				31,
+				32
 			]
 		}
 	],
@@ -1239,6 +1242,17 @@
 			"backtrace" : 85,
 			"compileGroupIndex" : 0,
 			"path" : "fft.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 85,
+			"path" : "spectrumview.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 0,
+			"path" : "spectrumview.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
