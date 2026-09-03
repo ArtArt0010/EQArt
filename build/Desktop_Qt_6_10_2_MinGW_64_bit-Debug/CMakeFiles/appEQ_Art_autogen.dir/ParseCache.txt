@@ -869,6 +869,7 @@ D:/QT/Projects/EQ_Art/audioprocessor.h
  mdp:D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/appEQ_Art_autogen/moc_predefs.h
  mdp:D:/QT/Projects/EQ_Art/fft.h
  mdp:D:/QT/Projects/EQ_Art/ringbuffer.h
+ mdp:D:/QT/Projects/EQ_Art/windowfunction.h
  mdp:D:/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm
  mdp:D:/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array
  mdp:D:/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic

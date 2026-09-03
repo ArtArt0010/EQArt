@@ -101,3 +101,21 @@ int RingBuffer::size() const
     return m_head;
 }
 
+void RingBuffer::removeFirst(int count)
+{
+    if (count <= 0){return;}
+
+    int current_size = size();
+
+    if(count >= current_size){
+        clear();
+    }
+    else{
+        m_head = (m_head + count) % m_capacity;
+
+        if(m_full){
+            m_full = false;
+        }
+    }
+}
+

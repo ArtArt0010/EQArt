@@ -20,6 +20,7 @@ public:
     QVector<float> qData() const;
     void clear();
     int size() const;
+    void removeFirst(int count);
 };
 
 #endif // RINGBUFFER_H

@@ -2,7 +2,7 @@
     "classes": [
         {
             "className": "AudioProcessor",
-            "lineNumber": 9,
+            "lineNumber": 10,
             "object": true,
             "qualifiedClassName": "AudioProcessor",
             "signals": [
@@ -15,7 +15,7 @@
                         }
                     ],
                     "index": 0,
-                    "lineNumber": 23,
+                    "lineNumber": 24,
                     "name": "volumeChanged",
                     "returnType": "void"
                 },
@@ -28,7 +28,7 @@
                         }
                     ],
                     "index": 1,
-                    "lineNumber": 24,
+                    "lineNumber": 25,
                     "name": "samplesReady",
                     "returnType": "void"
                 },
@@ -41,7 +41,7 @@
                         }
                     ],
                     "index": 2,
-                    "lineNumber": 25,
+                    "lineNumber": 26,
                     "name": "spectrumChanged",
                     "returnType": "void"
                 }
@@ -56,7 +56,7 @@
                         }
                     ],
                     "index": 3,
-                    "lineNumber": 19,
+                    "lineNumber": 20,
                     "name": "process",
                     "returnType": "void"
                 }

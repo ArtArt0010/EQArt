@@ -108,6 +108,7 @@ D:/QT/Projects/EQ_Art/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/appEQ_Art_autog
   D:/QT/6.10.2/mingw_64/include/QtCore/qyieldcpu.h \
   D:/QT/Projects/EQ_Art/fft.h \
   D:/QT/Projects/EQ_Art/ringbuffer.h \
+  D:/QT/Projects/EQ_Art/windowfunction.h \
   D:/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   D:/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   D:/QT/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \

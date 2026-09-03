@@ -1,9 +1,9 @@
 #include "audioprocessor.h"
 #include <QDebug>
 
-AudioProcessor::AudioProcessor(QObject *parent)
+AudioProcessor::AudioProcessor(QObject *parent): QObject(parent)
 {
-
+    m_window = WindowFunction::hanning(FFT_SIZE);
 }
 
 void AudioProcessor::process(const QByteArray &data)
@@ -36,24 +36,39 @@ void AudioProcessor::process(const QByteArray &data)
 
     emit volumeChanged(volume);
 
-    if (m_buffer.size() >= 4096 &&
-        m_fftCounter >= 1024)
-    {
+    if (m_buffer.size() >= FFT_SIZE  && m_fftCounter >= HOP_SIZE){
         // начинаем новый отсчёт
         m_fftCounter = 0;
 
 
         // Получаем последние 4096 семплов
-        auto fftSamples =
-            m_buffer.data();
+        auto fftSamples = m_buffer.data();
 
+      /*  auto allData = m_buffer.data();
+        std::vector<float> fftSamples;
+        fftSamples.reserve(FFT_SIZE);
 
+        if(allData.size() >= FFT_SIZE){
+
+            int start_id = allData.size()-FFT_SIZE;
+
+            for(int i = start_id; i < allData.size(); i++){
+
+                fftSamples.push_back(allData[i]);
+
+            }
+        }
+
+*/
         // =====================================================
         // 7. FFT
         // =====================================================
 
-        auto spectrum =
-            FFT::calculate(fftSamples);
+
+
+        auto spectrum = FFT::calculate(fftSamples, &m_window);
+
+
 
         if (!spectrum.empty())
         {
@@ -76,13 +91,10 @@ void AudioProcessor::process(const QByteArray &data)
 
             // Для реального сигнала используем
             // только первую половину спектра.
-            int spectrumSize =
-                spectrum.size() / 2;
+            int spectrumSize = spectrum.size() / 2;
 
 
-            for (int i = 1;
-                 i < spectrumSize;
-                 i++)
+            for (int i = 1; i < spectrumSize;i++)
             {
                 if (spectrum[i] >
                     spectrum[maxIndex])
@@ -105,11 +117,13 @@ void AudioProcessor::process(const QByteArray &data)
                 fftSize;
 
 
-            qDebug()
-                << "Главная частота:"
-                << frequency
-                << "Hz";
+            //qDebug()<< "Главная частота:"<< frequency<< "Hz";
         }
+      /*  if(m_buffer.size() > HOP_SIZE){
+            int remove_count = m_buffer.size() - HOP_SIZE;
+            m_buffer.removeFirst(remove_count);
+        }
+*/
     }
 
 

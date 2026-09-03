@@ -5,6 +5,7 @@
 #include <QVector>
 #include "ringbuffer.h"
 #include "fft.h"
+#include "windowfunction.h"
 
 class AudioProcessor : public QObject
 {
@@ -30,6 +31,11 @@ private:
 
     RingBuffer m_buffer;
     int m_fftCounter = 0;
+    std::vector<float> m_window;
+
+    static constexpr int FFT_SIZE = 4096;
+    static constexpr int HOP_SIZE = 3072;   // 50% от FFT_SIZE
+    static constexpr int OVERLAP = FFT_SIZE - HOP_SIZE;  // 3072 (75%)
 };
 
 #endif // AUDIOPROCESSOR_H
