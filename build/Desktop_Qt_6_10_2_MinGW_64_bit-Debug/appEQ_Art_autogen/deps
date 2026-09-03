@@ -804,6 +804,8 @@ appEQ_Art_autogen/timestamp: \
 	D:/QT/Projects/EQ_Art/spectrumview.h \
 	D:/QT/Projects/EQ_Art/waveformview.cpp \
 	D:/QT/Projects/EQ_Art/waveformview.h \
+	D:/QT/Projects/EQ_Art/windowfunction.cpp \
+	D:/QT/Projects/EQ_Art/windowfunction.h \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake \

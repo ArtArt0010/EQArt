@@ -975,6 +975,12 @@
 			"MU",
 			"EWIEGA46WW/moc_waveformview.cpp",
 			null
+		],
+		[
+			"D:/QT/Projects/EQ_Art/windowfunction.h",
+			"MU",
+			"EWIEGA46WW/moc_windowfunction.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -1071,7 +1077,8 @@
 		[ "D:/QT/Projects/EQ_Art/main.cpp", "MU", null ],
 		[ "D:/QT/Projects/EQ_Art/ringbuffer.cpp", "MU", null ],
 		[ "D:/QT/Projects/EQ_Art/spectrumview.cpp", "MU", null ],
-		[ "D:/QT/Projects/EQ_Art/waveformview.cpp", "MU", null ]
+		[ "D:/QT/Projects/EQ_Art/waveformview.cpp", "MU", null ],
+		[ "D:/QT/Projects/EQ_Art/windowfunction.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

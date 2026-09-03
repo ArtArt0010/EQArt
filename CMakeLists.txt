@@ -23,6 +23,7 @@ qt_add_qml_module(appEQ_Art
         SOURCES waveformview.h waveformview.cpp
         SOURCES fft.h fft.cpp
         SOURCES spectrumview.h spectrumview.cpp
+        SOURCES windowfunction.h windowfunction.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

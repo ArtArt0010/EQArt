@@ -3,7 +3,7 @@
 
 FFT::FFT() {}
 
-std::vector<float> FFT::calculate(const std::vector<float> &samples)
+std::vector<float> FFT::calculate(const std::vector<float> &samples, const std::vector<float>* window)
 {
     const int N = samples.size();
 
@@ -19,10 +19,19 @@ std::vector<float> FFT::calculate(const std::vector<float> &samples)
 
     std::vector<Complex> data(N);
 
-    for (int i = 0; i < N; i++)
-    {
-        data[i] = Complex(samples[i], 0.0f); //перевод семплов в комплексные числа
+    if (window && window->size() == N){
+        for(int i = 0; i< N; i++){
+            data[i] = Complex(samples[i] * (*window)[i], 0.0f);
+        }
     }
+    else{
+        for (int i = 0; i < N; i++)
+        {
+            data[i] = Complex(samples[i], 0.0f); //перевод семплов в комплексные числа
+        }
+
+    }
+
 
     for (int i = 1, j = 0; i < N; i++)
     {
@@ -75,8 +84,7 @@ std::vector<float> FFT::calculate(const std::vector<float> &samples)
 
     for (int i = 0; i < N / 2; i++)
     {
-        spectrum[i] =
-            std::abs(data[i]) / N * 2.0f;
+        spectrum[i] = std::abs(data[i]) / N * 2.0f;
     }
 
     return spectrum;

@@ -75,10 +75,12 @@ void WaveformView::paint(QPainter *painter)
 
         float y = h/2 - sample * h/2;
 
-        if(x == 0)
+        if(x == 0){
             path.moveTo(x,y);
-        else
+        }
+        else{
             path.lineTo(x,y);
+        }
 
     }
     painter->drawPath(path);

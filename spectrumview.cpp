@@ -19,11 +19,9 @@ void SpectrumView::paint(QPainter *painter)
     const float leftMargin = 50.0f;
     const float bottomMargin = 30.0f;
 
-    const float graphWidth =
-        w - leftMargin;
+    const float graphWidth = w - leftMargin;
 
-    const float graphHeight =
-        h - bottomMargin;
+    const float graphHeight = h - bottomMargin;
 
     constexpr float minDb = -80.0f;
     constexpr float maxDb = 0.0f;
@@ -155,8 +153,7 @@ void SpectrumView::paint(QPainter *painter)
         }
         else
         {
-            text =
-                QString::number(frequency);
+            text = QString::number(frequency);
         }
 
 
